@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  height: 100vh;
+  background-image: url("../img/mountains.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80vh;
+  width: 100%;
+  padding: 0 10%;
+}
+
+header .arrow {
+  height: 7vh;
+  text-align: center;
+  color: #fff;
+}
+
+header .arrow a {
+  color: #fff;
+}
+
+#color {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#color .right-header {
+  text-align: center;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+#color .left-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 70vh;
+  width: 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #ffffff;
+}
+
+#color .left-header h1 {
+  font-size: 40px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 5px 20px;
+}
+
+#second-title {
+  text-align: left;
+  margin-bottom: -100px;
+  width: 300px;
+}
+
+#line {
+  height: 300px;
+  width: 6px;
+  background-color: #000;
+  border-radius: 5px;
+}
+
+#first-title {
+  text-align: right;
+  margin-top: -100px;
+  width: 300px;
+}
+
+#everything {
+  height: 100vh;
+  background-color: #000;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 62px;
+}
+
+main {
+  height: 100vh;
+  background-image: url("../img/people.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+main div {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100vh;
+  font-size: 62px;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.showcase {
+  height: 100vh;
+  width: 100%;
+  background-color: #000;
+}
+
+#first-pic {
+  background-image: url("../img/light.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30%;
+  height: 40vh;
+  position: absolute;
+  left: 10%;
+  top: 15%;
+  opacity: 0;
+}
+
+#second-pic {
+  background-image: url("../img/road.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30%;
+  height: 40vh;
+  position: absolute;
+  left: 32%;
+  top: 42%;
+  opacity: 0;
+}
+
+#third-pic {
+  background-image: url("../img/fantasy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30%;
+  height: 40vh;
+  position: absolute;
+  left: 58%;
+  opacity: 0;
+  top: 22%;
+}
+
+.men {
+  height: 100vh;
+  background-image: url("../img/darklook.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.men h1 {
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  text-align: center;
+  position: absolute;
+}
+
+#one {
+  left: 5%;
+  top: 20%;
+  opacity: 0;
+}
+
+#two {
+  left: 60%;
+  top: 40%;
+  opacity: 0;
+}
+
+#three {
+  left: 10%;
+  top: 70%;
+  opacity: 0;
+}
+
+.end {
+  height: 100vh;
+  background-color: #000;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 52px;
+}
+
+.end p {
+  position: absolute;
+  font-size: 6px;
+  margin-top: 23%;
+}
+/*# sourceMappingURL=style.css.map */
